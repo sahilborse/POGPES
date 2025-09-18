@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - PGEPS</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    header {
+      background: rgba(255,255,255,0.95);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+    }
+    .navbar-brand img {
+      height: 60px;
+    }
+    .page-title {
+      background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('images/school-bg.jpg') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      padding: 100px 0;
+      text-align: center;
+      animation: fadeInDown 1s ease;
+    }
+    .page-title h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      animation: slideInUp 1.5s ease;
+    }
+    .section-heading {
+      border-left: 5px solid #0d6efd;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .contact-card {
+      transition: transform 0.3s;
+    }
+    .contact-card:hover {
+      transform: translateY(-10px);
+    }
+    footer {
+      background: #0d6efd;
+      color: #fff;
+      padding: 40px 0;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes slideInUp {
+      from {opacity: 0; transform: translateY(40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://pgeps.org/images/logo.png" alt="School Logo"> <span class="fw-bold">PGEPS</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="bi bi-list"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="pgeps.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="scholastics.html">Scholastics</a></li>
+          <li class="nav-item"><a class="nav-link" href="co-scholastics.html">Co-Scholastics</a></li>
+          <li class="nav-item"><a class="nav-link" href="amenities.html">Amenities</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero / Title -->
+<section class="page-title" style="background-image: url('https://pgeps.org/images/subpage-img1.jpg');">
+  <div class="container">
+    <h1>About Us</h1>
+    <p class="lead">Building a better future through education and values</p>
+  </div>
+</section>
+
+<!-- About Content -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-12">
+        <h3 class="section-heading">Management</h3>
+        <p>Peace on Green Earth Public School is managed by St. Joseph’s Educational Society registered as Regn. No. 268/84...</p>
+      </div>
+      <div class="col-md-12">
+        <h3 class="section-heading">Vision</h3>
+        <p>We envisage a future where our youth are capable of facing challenges of everyday life...</p>
+      </div>
+      <div class="col-md-12">
+        <h3 class="section-heading">Mission</h3>
+        <p>Our mission is to serve the society by raising an intellectually and physically strong student community...</p>
+      </div>
+      <div class="col-md-12">
+        <h3 class="section-heading">Motto</h3>
+        <p><em>“PROMOTE PEACE; PROTECT EARTH”</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Info -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card contact-card shadow-sm p-4">
+          <i class="bi bi-telephone-fill fs-2 text-primary"></i>
+          <p class="mt-3"><a href="tel:+919003108333">+91 90031 08333</a><br><a href="tel:+919566150006">+91 95661 50006</a></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card contact-card shadow-sm p-4">
+          <i class="bi bi-geo-alt-fill fs-2 text-danger"></i>
+          <p class="mt-3">C/15, Metro Start City Extension,<br>Manikandan Nagar, Kundrathur,<br>Chennai - 600 069</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card contact-card shadow-sm p-4">
+          <i class="bi bi-envelope-fill fs-2 text-success"></i>
+          <p class="mt-3"><a href="mailto:info@vmhss.org">info@vmhss.org</a><br><a href="mailto:peaceongreenearth@gmail.com">peaceongreenearth@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<section>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="350" style="border:0;" allowfullscreen></iframe>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo & About -->
+      <div class="col-lg-3 col-md-6 text-center text-md-start">
+        <a href="index.html" class="d-inline-block mb-3">
+          <img src="https://pgeps.org/images/ids-logo.jpg" alt="PGEPS Logo" class="img-fluid" style="max-width:140px;">
+        </a>
+        <p class="small">
+          Peace On Green Earth Public School is committed to excellence in academics and holistic development, nurturing students to become responsible global citizens.
+        </p>
+      </div>
+
+      <!-- Academics -->
+      <div class="col-lg-2 col-md-6">
+        <h6 class="fw-bold text-warning mb-3">Academics</h6>
+        <ul class="list-unstyled">
+          <li><a href="academics.html" class="text-light text-decoration-none">Curriculum</a></li>
+          <li><a href="activities.html" class="text-light text-decoration-none">Co-Curricular</a></li>
+          <li><a href="achievements.html" class="text-light text-decoration-none">Achievements</a></li>
+        </ul>
+      </div>
+
+      <!-- Admissions -->
+      <div class="col-lg-2 col-md-6">
+        <h6 class="fw-bold text-warning mb-3">Admissions</h6>
+        <ul class="list-unstyled">
+          <li><a href="admissions.html" class="text-light text-decoration-none">Admission Process</a></li>
+          <li><a href="fees.html" class="text-light text-decoration-none">Fee Structure</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Enquiry</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-3 col-md-6">
+        <h6 class="fw-bold text-warning mb-3">Contact Us</h6>
+        <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Kundrathur, Chennai, Tamil Nadu</p>
+        <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+91 12345 67890</p>
+        <p class="mb-0"><i class="bi bi-envelope-fill me-2"></i>info@pgeps.org</p>
+      </div>
+
+      <!-- Social -->
+      <div class="col-lg-2 col-md-6 text-center text-md-start">
+        <h6 class="fw-bold text-warning mb-3">Follow Us</h6>
+        <div class="d-flex justify-content-center justify-content-md-start gap-2">
+          <a href="https://www.facebook.com/pgeps.kundrathur" target="_blank" class="btn btn-outline-light btn-sm rounded-circle">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://twitter.com/PGEPS1" target="_blank" class="btn btn-outline-light btn-sm rounded-circle">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UClntUft1edP3Mms3E3Z_ltQ" target="_blank" class="btn btn-outline-light btn-sm rounded-circle">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Divider -->
+    <hr class="border-secondary my-4">
+
+    <!-- Bottom Row -->
+    <div class="row">
+      <div class="col text-center">
+        <p class="mb-0 small">
+          © <span id="copyright-year">2025</span>
+          <strong>Peace On Green Earth Public School</strong>. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons (needed for icons like bi-facebook, bi-twitter, etc.) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+
+<!-- jQuery + Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Dynamic Year
+  $('#year').text(new Date().getFullYear());
+
+  // Fade-in animations on scroll
+  $(window).on("scroll", function() {
+    $(".section-heading, .contact-card").each(function() {
+      let pos = $(this).offset().top;
+      let winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("animate__animated animate__fadeInUp");
+      }
+    });
+  });
+</script>
+<!-- Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</body>
+</html>
